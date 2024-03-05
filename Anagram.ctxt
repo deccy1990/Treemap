@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Anagram
+comment0.text=\r\n\ (a)In\ this\ implementation,\ the\ Anagram\ class\ includes\ a\ public\ TreeMap\ field\ named\ anagrams,\ where\ each\ key\ is\ a\ word,\ \r\n\ and\ the\ corresponding\ value\ is\ a\ TreeSet\ containing\ valid\ anagrams\ of\ that\ word.\ \r\n
+comment1.params=
+comment1.target=Anagram()
+comment1.text=\r\n\ (b)zero-argument\ constructior\r\n
+comment2.params=
+comment2.target=void\ populate()
+comment2.text=\r\n\ (c)adds\ a\ public\ zero-parameter\ method,\ the\ method\ has\ two\ sample\ (key-values)\ The\ method\ does\ not\ return\ a\ value.\r\n
+comment3.params=
+comment3.target=void\ print()
+comment3.text=\r\n\ (d)create\ a\ public\ method\ of\ the\ Anagram\ class,\ call's\ the\ populate\ method\ to\ add\ sample\ entries,\ and\ then\ use\ the\ print\ method\ to\ display\ the\ map\ entries\u0000\r\n
+comment4.params=aWord\ anotherWord
+comment4.target=boolean\ areAnagrams(java.lang.String,\ java.lang.String)
+comment4.text=\r\n\ (e)\ Method\ that\ checks\ whether\ its\ two\ parameters\ are\ anagrams\ of\ each\ other.\ Returns\ true\ if\ the\ two\ parameters\ are\ anagrams\ and\ false\ otherwise.\r\n
+comment5.params=aWord\ anAnagram
+comment5.target=void\ addAnagram(java.lang.String,\ java.lang.String)
+comment5.text=\r\n\ (f)\ Method\ that\ adds\ a\ new\ entry\ to\ the\ anagrams\ map,checks\ if\ aWord\ already\ exists\ as\ a\ key\ in\ the\ anagrams\ map.\ \r\n\ If\ it\ does,\ the\ method\ retrieves\ the\ set\ associated\ with\ the\ key\ and\ adds\ anAnagram\ to\ it.\ \r\n\ If\ aWord\ doesn't\ exist\ as\ a\ key,\ a\ new\ map\ entry\ is\ created\ with\ aWord\r\n
+comment6.params=
+comment6.target=void\ crossReference()
+comment6.text=\r\n\ (g)\ public\ method,\ this\ method\ changes\ the\ anagram\ map\ so\ that\ each\ anagram\ is\ cross-referenced\ with\ every\ other\ angram\r\n
+numComments=7
